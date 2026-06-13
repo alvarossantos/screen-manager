@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="print_plugin.png" alt="Screen Manager Plugin" width="600">
+  <img src="preview.png" alt="Screen Manager Plugin" width="600">
 </p>
 
 <h1 align="center">Screen Manager</h1>
@@ -29,6 +29,16 @@ Plugin de gerenciamento de monitores para o **Noctalia** no compositor **Niri**.
 - [wl-mirror](https://github.com/Footpad/wl-mirror) (para espelhamento)
 
 ### Instalação
+
+#### Via fonte de plugins do Noctalia (recomendado)
+
+1. Abra o **Noctalia** → Configurações → **Plugins**
+2. Clique em **Adicionar fonte**
+3. Cole a URL: `https://github.com/alvarossantos/screen-manager`
+4. O plugin **Screen Manager** aparecerá na lista — clique para instalar
+5. Reinicie o Noctalia
+
+#### Via terminal (git clone)
 
 ```bash
 cd ~/.config/noctalia/plugins
@@ -73,7 +83,7 @@ MIT
 ---
 
 <p align="center">
-  <img src="print_plugin.png" alt="Screen Manager Plugin" width="600">
+  <img src="preview.png" alt="Screen Manager Plugin" width="600">
 </p>
 
 <h1 align="center">Screen Manager</h1>
@@ -103,6 +113,16 @@ Monitor management plugin for **Noctalia** on the **Niri** Wayland compositor. M
 - [wl-mirror](https://github.com/Footpad/wl-mirror) (for mirroring)
 
 ### Installation
+
+#### Via Noctalia plugin source (recommended)
+
+1. Open **Noctalia** → Settings → **Plugins**
+2. Click **Add source**
+3. Paste the URL: `https://github.com/alvarossantos/screen-manager`
+4. The **Screen Manager** plugin will appear in the list — click to install
+5. Restart Noctalia
+
+#### Via terminal (git clone)
 
 ```bash
 cd ~/.config/noctalia/plugins
