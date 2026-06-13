@@ -5,14 +5,14 @@
   "minNoctaliaVersion": "3.6.0",
   "author": "alvaro",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/alvarossantos/screen-manager",
   "description": "Gerencia monitores: espelhar, desligar e trocar foco",
   "tags": [
     "Bar",
     "Panel",
-    "ControlCenter",
     "System",
-    "Utility"
+    "Utility",
+    "Niri"
   ],
   "entryPoints": {
     "main": "Main.qml",
