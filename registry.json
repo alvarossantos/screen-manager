@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "id": "screen-manager",
+      "name": "Screen Manager",
+      "version": "1.0.0",
+      "official": false,
+      "author": "alvaro",
+      "description": "Gerencia monitores: espelhar, desligar e trocar foco",
+      "repository": "https://github.com/alvarossantos/screen-manager",
+      "minNoctaliaVersion": "3.6.0",
+      "license": "MIT",
+      "tags": [
+        "Bar",
+        "Panel",
+        "System",
+        "Utility",
+        "Niri"
+      ],
+      "lastUpdated": "2026-06-13T19:15:00-03:00"
+    }
+  ]
+}
