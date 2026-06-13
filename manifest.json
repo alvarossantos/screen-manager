@@ -1,0 +1,32 @@
+{
+  "id": "screen-manager",
+  "name": "Screen Manager",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "alvaro",
+  "license": "MIT",
+  "repository": "",
+  "description": "Gerencia monitores: espelhar, desligar e trocar foco",
+  "tags": [
+    "Bar",
+    "Panel",
+    "ControlCenter",
+    "System",
+    "Utility"
+  ],
+  "entryPoints": {
+    "main": "Main.qml",
+    "barWidget": "BarWidget.qml",
+    "controlCenterWidget": "ControlCenterWidget.qml",
+    "panel": "Panel.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "autoDetectNewMonitor": true,
+      "showNotificationOnConnect": true
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "bar": {
+    "tooltip": {
+      "inactive": "Screen Manager",
+      "mirroring": "Mirroring active — click to open"
+    }
+  },
+  "widget": {
+    "tooltip": "Manage monitors: mirror or disable displays"
+  },
+  "main": {
+    "error": {
+      "noSecondaryMonitor": "No secondary monitor detected.",
+      "needTwoMonitors": "Need at least 2 monitors to perform this action.",
+      "commandFailed": "Command failed with exit code %1.",
+      "parseFailed": "Failed to parse monitor information.",
+      "lastScreenActive": "Cannot disable the last active screen. At least one screen must remain on.",
+      "alreadyMirroring": "Already mirroring. Stop the current mirror first.",
+      "sameMonitor": "Cannot mirror a monitor onto itself.",
+      "mirrorFailed": "Mirror process failed with exit code %1."
+    }
+  },
+  "panel": {
+    "title": "Screen Manager",
+    "monitors": {
+      "label": "Connected Monitors"
+    },
+    "status": {
+      "enabled": "Enabled",
+      "disabled": "Disabled"
+    },
+    "mode": {
+      "unknown": "Unknown mode"
+    },
+    "lockWarning": "Only 1 screen active — disabling locked for safety.",
+    "noMonitors": "No monitors detected. Please connect a monitor.",
+    "actions": {
+      "enable": "Enable",
+      "disable": "Disable",
+      "mirror": "Mirror",
+      "stopMirror": "Stop Mirroring",
+      "refresh": "Load screens",
+      "enableAll": "Enable All"
+    }
+  }
+}

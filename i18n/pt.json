@@ -1,0 +1,46 @@
+{
+  "bar": {
+    "tooltip": {
+      "inactive": "Gerenciar Telas",
+      "mirroring": "Espelhamento ativo — clique para abrir"
+    }
+  },
+  "widget": {
+    "tooltip": "Gerenciar monitores: espelhar ou desligar"
+  },
+  "main": {
+    "error": {
+      "noSecondaryMonitor": "Nenhum monitor secundário detectado.",
+      "needTwoMonitors": "Necessário pelo menos 2 monitores para esta ação.",
+      "commandFailed": "Comando falhou com código de saída %1.",
+      "parseFailed": "Falha ao analisar informações dos monitores.",
+      "lastScreenActive": "Não é possível desligar a última tela ativa. Pelo menos uma tela deve permanecer ligada.",
+      "alreadyMirroring": "Já está espelhando. Pare o espelhamento atual primeiro.",
+      "sameMonitor": "Não é possível espelhar um monitor nele mesmo.",
+      "mirrorFailed": "Processo de espelhamento falhou com código de saída %1."
+    }
+  },
+  "panel": {
+    "title": "Gerenciar Telas",
+    "monitors": {
+      "label": "Monitores Conectados"
+    },
+    "status": {
+      "enabled": "Ativado",
+      "disabled": "Desativado"
+    },
+    "mode": {
+      "unknown": "Modo desconhecido"
+    },
+    "lockWarning": "Apenas 1 tela ativa — desligar desabilitado por segurança.",
+    "noMonitors": "Nenhum monitor detectado. Por favor, conecte um monitor.",
+    "actions": {
+      "enable": "Ativar",
+      "disable": "Desativar",
+      "mirror": "Espelhar",
+      "stopMirror": "Parar Espelhamento",
+      "refresh": "Carregar Telas",
+      "enableAll": "Ligar Todas"
+    }
+  }
+}
